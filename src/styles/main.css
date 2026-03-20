@@ -40,11 +40,27 @@
   font-display: swap;
 }
 
+/* 导入 Times New Roman 字体 */
+@font-face {
+  font-family: "Times New Roman";
+  src: url("/assets/font/TimesNewRoman.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+
 /* 导入 萝莉体 第二版 字体 */
 @font-face {
   font-family: "萝莉体 第二版";
   src: url("/assets/font/萝莉体 第二版.woff2") format("woff2");
   font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/*导入 仓耳今楷 字体*/
+@font-face {
+  font-family: "仓耳今楷";
+  src: url("/assets/font/仓耳今楷05-W03.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
 }
