@@ -9,6 +9,11 @@ import fs from "node:fs";
 import path from "node:path";
 import { widgetManager } from "../utils/widget-manager";
 import "../styles/anime.css";
+import YucAnime from "../components/YucAnime.svelte";
+import yucCatalog from "../data/yuc-catalog.json";
+import animeWatchlist from "../data/anime-watchlist.json";
+import type { AnimeWatchlist } from "../types/anime";
+import { seasonForDate } from "../../scripts/lib/yuc.mjs";
 
 interface RawAnimeItem {
 	title?: string;
@@ -137,7 +142,7 @@ if (currentConfig) {
 			animeList = loadAnimeData(currentConfig.filename);
 		}
 	}
-} else {
+} else if (ANIME_MODE !== "yuc") {
 	console.warn(`[Anime] Unknown or unconfigured mode: ${ANIME_MODE}`);
 }
 
@@ -214,8 +219,17 @@ const hiddenAnimeList = animeList.slice(INITIAL_DISPLAY_COUNT);
 
 <MainGridLayout
 	title={i18n(I18nKey.anime)}
-	description={i18n(I18nKey.animeSubtitle)}
+	description={ANIME_MODE === "yuc" ? "从 yuc.wiki 季度新番中挑选的公开追番清单" : i18n(I18nKey.animeSubtitle)}
 >
+	{ANIME_MODE === "yuc" ? (
+		<YucAnime
+			client:load
+			initialCatalog={yucCatalog}
+			initialWatchlist={animeWatchlist as AnimeWatchlist}
+			currentSeason={seasonForDate()}
+			editable={import.meta.env.DEV}
+		/>
+	) : (<>
 	<div
 		class="flex w-full rounded-(--radius-large) overflow-hidden relative min-h-32"
 	>
@@ -991,4 +1005,5 @@ const hiddenAnimeList = animeList.slice(INITIAL_DISPLAY_COUNT);
 			}
 		}
 	</script>
+	</>)}
 </MainGridLayout>

@@ -44,6 +44,7 @@ const iconSrc = rawIcon.match(/^(http|https|\/\/)/) ? rawIcon : url(rawIcon);
 <div id="navbar" class="z-50 onload-animation group" data-transparent-mode={navbarTransparentMode} data-is-home={isHomePage}>
     <div class="absolute h-8 left-0 right-0 -top-8 bg-(--card-bg) transition"></div> <!-- used for onload animation -->
     <div class:list={[className, "overflow-visible! max-w-(--page-width) h-18 mx-auto flex items-center justify-between px-4"]}>
+        {siteConfig.navbarTitle?.enable !== false && (
         <a href={url('/')} class="btn-plain scale-animation rounded-lg h-10 md:h-13 md:in-[.enable-banner]:h-10 md:in-[.enable-banner]:group-[.scrolled]:h-13 px-5 font-bold active:scale-95 shrink-0 transition-all duration-300">
             <div class="flex flex-row items-center text-md">
 				{/* 使用navbarTitle配置或默认配置 */}
@@ -64,12 +65,13 @@ const iconSrc = rawIcon.match(/^(http|https|\/\/)/) ? rawIcon : url(rawIcon);
                 )}
             </div>
         </a>
+        )}
         <div id="navbar-links-container" class="hidden md:flex items-center space-x-1 transition-opacity duration-300">
             {links.map((l) => {
                 return <DropdownMenu link={l} />;
             })}
         </div>
-        <div class="flex items-center gap-1">
+        <div class="flex items-center gap-1 ml-auto md:ml-0">
             <div id="search-container">
                 <Search client:only="svelte"></Search>
             </div>

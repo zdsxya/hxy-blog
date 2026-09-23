@@ -1,0 +1,2219 @@
+{
+  "version": 1,
+  "seasons": [
+    {
+      "season": "202610",
+      "sourceUrl": "https://yuc.wiki/202610/",
+      "fetchedAt": "2026-09-23T15:54:17.090Z",
+      "items": [
+        {
+          "id": "202610-2001926f1da8ba81",
+          "season": "202610",
+          "title": "顶点武装",
+          "titleJapanese": "VERTEX FORCE",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/5b15f205dd5ba4d33110d12e3becd445512995925.jpg",
+          "studio": "SMDE",
+          "genres": [
+            "科幻",
+            "机战",
+            "股"
+          ],
+          "broadcast": "10/3周六深夜",
+          "website": "https://vertexforce.jp/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-660c10e493f6d002",
+          "season": "202610",
+          "title": "兽王武神丹帝拜恩",
+          "titleJapanese": "獣王武神ダンデヴァイン",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/cb92c54f4454875d55cec524d4bc6ba5512995925.jpg",
+          "studio": "LIDENFILMS KAYAC Animation",
+          "genres": [
+            "科幻",
+            "机战",
+            "合体"
+          ],
+          "broadcast": "10/7周三深夜",
+          "website": "https://gattaishin.com/dandivine/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-be2f004f4c597122",
+          "season": "202610",
+          "title": "黑暗机器",
+          "titleJapanese": "DARK MACHINE",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/d7ffb106ffd3e30be5617eb6aae5fac5512995925.jpg",
+          "studio": "Production +h.",
+          "genres": [
+            "3v3电竞",
+            "机战"
+          ],
+          "broadcast": "10/13周二深夜",
+          "website": "https://www.fujitv.co.jp/darkmachine_anime/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-06c36759780d6b62",
+          "season": "202610",
+          "title": "铁旅 邂逅铁道少女",
+          "titleJapanese": "てつりょー！meet with 鉄道むすめ",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/a26cf535a73c3f5e5fb4e9e538de92d3512995925.jpg",
+          "studio": "East Fish Studio",
+          "genres": [
+            "铁路旅行",
+            "日常"
+          ],
+          "broadcast": "10/8周四深夜",
+          "website": "https://tetsuryo-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-278ae873fa8bca0e",
+          "season": "202610",
+          "title": "魔法姐妹露露与莉莉 Part.2",
+          "titleJapanese": "魔法の姉妹ルルットリリィ 第2クール",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/f80b95e602653d8384719d5ee6799ad9512995925.jpg",
+          "studio": "Studio PIERROT",
+          "genres": [
+            "魔法",
+            "变身",
+            "偶像"
+          ],
+          "broadcast": "10/4周日晚间",
+          "website": "https://www.luluttolilly.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-4cebfb9b9ed581da",
+          "season": "202610",
+          "title": "战斗之魂 [Re] 绝界之空",
+          "titleJapanese": "Battle Spirits [Re] 絶界の空",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/ca90973c1a024a48a8a3bd5d1ecb7ba1512995925.jpg",
+          "studio": "BN Pictures",
+          "genres": [
+            "TCG",
+            "武士",
+            "决斗"
+          ],
+          "broadcast": "10/6周二深夜",
+          "website": "https://www.bn-pictures.co.jp/battlespirits/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-809340d2c62c245e",
+          "season": "202610",
+          "title": "苍蓝传承",
+          "titleJapanese": "蒼き伝承 ウェルシュ＆シェダー",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/daa1c2b6b82a5e9dbe23d001fc9c5a63512995925.jpg",
+          "studio": "StudioMassket",
+          "genres": [
+            "奇幻",
+            "冒险",
+            "战斗"
+          ],
+          "broadcast": "10/2周五",
+          "website": "https://welshandshedar-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-c2bc49feb61d3340",
+          "season": "202610",
+          "title": "新 Keroro军曹",
+          "titleJapanese": "ケロロ軍曹☆",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/0d5dd1a78e625dfa6f178295a1b46f25512995925.jpg",
+          "studio": "BN Pictures",
+          "genres": [
+            "科幻",
+            "喜剧",
+            "无厘头",
+            "奇妙日常",
+            "重制"
+          ],
+          "broadcast": "10/3周六早间",
+          "website": "https://www.bn-pictures.co.jp/keroro-anime/tv/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-0b9142cafef2879d",
+          "season": "202610",
+          "title": "新 魔法骑士Rayearth",
+          "titleJapanese": "魔法騎士レイアース",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/6cdc11733c7388c0256ca139ea193393512995925.jpg",
+          "studio": "E&H production",
+          "genres": [
+            "魔法",
+            "机战",
+            "穿越",
+            "冒险",
+            "重制"
+          ],
+          "broadcast": "10/7周三深夜",
+          "website": "https://rayearth-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-d505b00e532879c7",
+          "season": "202610",
+          "title": "新 乱马1/2 第3期",
+          "titleJapanese": "らんま1/2 第3期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/6a94f07b7bc3e5523d59d9aa8a205f0f512995925.jpg",
+          "studio": "MAPPA",
+          "genres": [
+            "性转",
+            "喜剧",
+            "格斗"
+          ],
+          "broadcast": "10/3周六深夜",
+          "website": "https://ranma-pr.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-139e89a895b32ab5",
+          "season": "202610",
+          "title": "龙珠超 比鲁斯",
+          "titleJapanese": "ドラゴンボール超 ビルス",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/b83e47df37cbb2874d40d1efd215860b512995925.jpg",
+          "studio": "东映动画",
+          "genres": [
+            "热血",
+            "战斗",
+            "加强版"
+          ],
+          "broadcast": "10/11周日深夜",
+          "website": "https://dragonball-super.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-d3fb18fcf29f85ae",
+          "season": "202610",
+          "title": "JOJO奇妙冒险 飙马野郎 2nd&3rd STAGE",
+          "titleJapanese": "スティール・ボール・ラン ジョジョの奇妙な冒険",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/2208e1e48e5b967c05767b3b3faaee7d512995925.jpg",
+          "studio": "david production",
+          "genres": [
+            "战斗",
+            "冒险",
+            "赛马"
+          ],
+          "broadcast": "9/25网络放送",
+          "website": "https://jojo-portal-anime.com/sbr/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-44b2991849c6bb1c",
+          "season": "202610",
+          "title": "新 网球王子 U-17世界杯决赛成员决定战",
+          "titleJapanese": "新テニスの王子様 U-17 WORLD CUP 決勝メンバー決定戦",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/2f9699d368ef47beba31c1cdf2f1ab2f512995925.jpg",
+          "studio": "M.S.C",
+          "genres": [
+            "运动",
+            "网球",
+            "异能"
+          ],
+          "broadcast": "9/30周三深夜",
+          "website": "https://tenipuri.jp/u17/selection-match/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-9dbaa94ec9971abe",
+          "season": "202610",
+          "title": "钻石王牌 第4期 Part.2 (actⅡ 第2期 Part.2)",
+          "titleJapanese": "ダイヤのA actⅡ-SECOND SEASON- 第2クール",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/616f78fdfdf61b51fa904a8913f953d9512995925.jpg",
+          "studio": "OLM",
+          "genres": [
+            "运动",
+            "棒球",
+            "热血"
+          ],
+          "broadcast": "10/11周日下午",
+          "website": "https://diaace.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-8b78038c5e2dd063",
+          "season": "202610",
+          "title": "青之芦苇 第2期",
+          "titleJapanese": "アオアシ Season2",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/a94063ea42637475007bb99e7690a6e9512995925.jpg",
+          "studio": "TMS娱乐",
+          "genres": [
+            "运动",
+            "足球",
+            "热血"
+          ],
+          "broadcast": "10/4周日下午",
+          "website": "https://aoashi-pr.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-4b79888ddfe39cd0",
+          "season": "202610",
+          "title": "青春之箱 第2期",
+          "titleJapanese": "アオのハコ Season2",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/fb24810950081a12961442135e6c14ec512995925.jpg",
+          "studio": "Electric Circus",
+          "genres": [
+            "恋爱",
+            "运动",
+            "青春"
+          ],
+          "broadcast": "10/4周四下午",
+          "website": "https://aonohako-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-9734a1ead6058a38",
+          "season": "202610",
+          "title": "东京复仇者 第4期 三天战争篇",
+          "titleJapanese": "東京リベンジャーズ 三天戦争編",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/f6f2437b7c1fcb311472ee339b8ee7f2512995925.jpg",
+          "studio": "LIDENFILMS",
+          "genres": [
+            "穿越",
+            "不良",
+            "战斗",
+            "热血",
+            "复仇",
+            "成长"
+          ],
+          "broadcast": "10/2周五深夜",
+          "website": "https://tokyo-revengers-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-7ee1f4e0dc257f2a",
+          "season": "202610",
+          "title": "桃源暗鬼 第2期",
+          "titleJapanese": "桃源暗鬼～日光・華厳の滝編～",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/1460d9f4b7f1e62d86d58b269deaeb07512995925.jpg",
+          "studio": "Studio云雀",
+          "genres": [
+            "鬼",
+            "桃太郎",
+            "热血",
+            "战斗",
+            "黑暗英雄"
+          ],
+          "broadcast": "10/2周五深夜",
+          "website": "https://tougenanki-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-179a5d86d9379fb2",
+          "season": "202610",
+          "title": "黑色五叶草 第2期",
+          "titleJapanese": "ブラッククローバー 2nd Season",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/a274531d59837efd83bc8d238f08c5cf512995925.jpg",
+          "studio": "Studio PIERROT",
+          "genres": [
+            "奇幻",
+            "热血",
+            "战斗"
+          ],
+          "broadcast": "10/3周六深夜",
+          "website": "https://bclover.jp/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-eeca2b906740436c",
+          "season": "202610",
+          "title": "归还者的魔法要特别 第2期",
+          "titleJapanese": "帰還者の魔法は特別です 第2期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/4561e23bf8a9b3056b215022fff34f18512995925.jpg",
+          "studio": "Arvo Animation",
+          "genres": [
+            "奇幻",
+            "冒险",
+            "轮回"
+          ],
+          "broadcast": "10/7周三深夜",
+          "website": "https://returners-magic.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-0dd17138652b32fc",
+          "season": "202610",
+          "title": "杀手旅店 第2期",
+          "titleJapanese": "HOTEL INHUMANS 第2期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/f1b36ef274674c51bc81128c85b36e23512995925.jpg",
+          "studio": "Bridge/AISLE",
+          "genres": [
+            "杀手",
+            "奇妙旅馆"
+          ],
+          "broadcast": "10/4周日深夜",
+          "website": "https://hotel-inhumans.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-ba90fc91639ff3a8",
+          "season": "202610",
+          "title": "夜樱家的大作战 第2期 Part.2",
+          "titleJapanese": "夜桜さんちの大作戦 第2期 第2クール",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/925ee19c79e5d775730a208eaecce622512995925.jpg",
+          "studio": "SILVER LINK.",
+          "genres": [
+            "异能",
+            "动作",
+            "恋爱"
+          ],
+          "broadcast": "10/11周日下午",
+          "website": "https://mission-yozakura-family.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-9bf356824a2084c4",
+          "season": "202610",
+          "title": "冰之城墙 第2期",
+          "titleJapanese": "氷の城壁 第2期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/61bfaddf5079566021f9065f97f4ed87512995925.jpg",
+          "studio": "StudioKAI",
+          "genres": [
+            "校园",
+            "恋爱",
+            "反差"
+          ],
+          "broadcast": "10/1周四深夜",
+          "website": "https://korinojoheki-pr.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-efe262588cd24915",
+          "season": "202610",
+          "title": "FX战士久留美",
+          "titleJapanese": "FX戦士くるみちゃん",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/243206d715caefc5526e1b7c8fb1716e512995925.jpg",
+          "studio": "Passione",
+          "genres": [
+            "金融",
+            "投资",
+            "反差"
+          ],
+          "broadcast": "10/1周四晚间",
+          "website": "https://fxkurumi-info.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-ab0dd2c21c4d2874",
+          "season": "202610",
+          "title": "大叔喜欢可爱小玩意",
+          "titleJapanese": "おじさんはカワイイものがお好き。",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/1f4999523334eb69a6396c8b5c70c784512995925.jpg",
+          "studio": "LIDENFILMS",
+          "genres": [
+            "日常",
+            "喜剧",
+            "治愈"
+          ],
+          "broadcast": "10/4周日晚间",
+          "website": "https://ojikawa.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-93891478d85b92e1",
+          "season": "202610",
+          "title": "朱色假面",
+          "titleJapanese": "朱色の仮面",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/6b6537e0e76f1075ab17b7c416eedc97512995925.jpg",
+          "studio": "100Studio",
+          "genres": [
+            "异能",
+            "战斗",
+            "冒险"
+          ],
+          "broadcast": "10/10周六下午",
+          "website": "https://the-vermilion-mask.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-b0766abbb4573b85",
+          "season": "202610",
+          "title": "PSYREN 决战游戏",
+          "titleJapanese": "PSYREN -サイレン-",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/ed859b3e48c0e81b465c70779c132c57512995925.jpg",
+          "studio": "Satelight",
+          "genres": [
+            "异能",
+            "战斗",
+            "悬疑"
+          ],
+          "broadcast": "10/5周一深夜",
+          "website": "https://psyren-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-8f7d204fa2d0858a",
+          "season": "202610",
+          "title": "超巡 超条前辈",
+          "titleJapanese": "超巡！超条先輩",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/dbc0ce8a1498076de88e45c199067e86512995925.jpg",
+          "studio": "Arvo Animation",
+          "genres": [
+            "异能",
+            "警察",
+            "喜剧"
+          ],
+          "broadcast": "周二深夜",
+          "website": "https://chojun-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-a2a733ee48afc211",
+          "season": "202610",
+          "title": "僵尸搜寻中",
+          "titleJapanese": "#ゾンビさがしてます",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/e0f93767aa7444921b819438b8548900512995925.jpg",
+          "studio": "Studio COMET",
+          "genres": [
+            "冒险",
+            "反差",
+            "喜剧"
+          ],
+          "broadcast": "10/3周六深夜",
+          "website": "https://zommasu.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-fcc2d03f22e9a3e5",
+          "season": "202610",
+          "title": "战车椅子",
+          "titleJapanese": "TANK CHAIR-戦車椅子-",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/916ad7ebf086fc890907c07a50025f63512995925.jpg",
+          "studio": "Polygon Pictures",
+          "genres": [
+            "异能",
+            "战斗",
+            "兄妹"
+          ],
+          "broadcast": "10/4周日深夜",
+          "website": "https://www.tankchair-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-d7d5e0e6c0fa9746",
+          "season": "202610",
+          "title": "愚者之夜",
+          "titleJapanese": "フールナイト",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/7b061051628505ffc38bb0e86f9639f0512995925.jpg",
+          "studio": "SUNRISE SHAFT",
+          "genres": [
+            "科幻",
+            "悬疑",
+            "社会"
+          ],
+          "broadcast": "11/26网络放送",
+          "website": "https://www.foolnight.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-4447571cc5ff77dd",
+          "season": "202610",
+          "title": "装备我最强",
+          "titleJapanese": "テムパル～アイテムの力～",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/2d75b7eb12cf00ecef0cc83289fdf62c512995925.jpg",
+          "studio": "J.C.STAFF",
+          "genres": [
+            "网游",
+            "战斗",
+            "逆袭"
+          ],
+          "broadcast": "10/2周五深夜",
+          "website": "https://tempal-anime.net/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-2607501dd19a56c6",
+          "season": "202610",
+          "title": "借出去的魔力 要用【分期还款】强制收回",
+          "titleJapanese": "貸した魔力は【リボ払い】で強制徴収",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/8483416669c204c3c9e1f07d52e39519512995925.jpg",
+          "studio": "SynergySP",
+          "genres": [
+            "奇幻",
+            "冒险",
+            "喜剧"
+          ],
+          "broadcast": "10/3周六深夜",
+          "website": "https://revo-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-fdfe9aaeb977770b",
+          "season": "202610",
+          "title": "转生成哥布林有什么问题吗",
+          "titleJapanese": "転生ゴブリンだけど質問ある？",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/6ec885213a549761b589d00ee2bbd70d512995925.jpg",
+          "studio": "BAKKKA",
+          "genres": [
+            "魔物转生",
+            "喜剧"
+          ],
+          "broadcast": "10/5周一晚间",
+          "website": "https://tengobu-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-ffdf36022c1b855c",
+          "season": "202610",
+          "title": "七叶树王国的七名骑士",
+          "titleJapanese": "マロニエ王国の七人の騎士",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/cd478e564d11dcf389f08a5a490c9fdc512995925.jpg",
+          "studio": "J.C.STAFF",
+          "genres": [
+            "奇幻",
+            "群像",
+            "恋爱"
+          ],
+          "broadcast": "10/3周六下午",
+          "website": "https://www.nhk-character.com/chara/marronnier/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-dc16fd6ef7f74996",
+          "season": "202610",
+          "title": "萤火虫的出嫁",
+          "titleJapanese": "ホタルの嫁入り",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/b8300c288a772d1c98940ae167dff18d512995925.jpg",
+          "studio": "david production",
+          "genres": [
+            "杀手",
+            "狂爱",
+            "重力"
+          ],
+          "broadcast": "10/9周五深夜",
+          "website": "https://hotaru-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-abcbc03a236ebedd",
+          "season": "202610",
+          "title": "来自远方",
+          "titleJapanese": "彼方から",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/b9aab25dd237af5fa75e6ae6f7f3feef512995925.jpg",
+          "studio": "Studio DEEN",
+          "genres": [
+            "穿越",
+            "奇幻",
+            "恋爱"
+          ],
+          "broadcast": "10/4周日深夜",
+          "website": "https://kanatakara-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-8d7ef5211078086d",
+          "season": "202610",
+          "title": "脑洞学生会",
+          "titleJapanese": "生徒会にも穴はある！",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/a883eb732ac2da652209a7d60fc3f6ab512995925.jpg",
+          "studio": "Passione",
+          "genres": [
+            "校园",
+            "喜剧",
+            "涩涩"
+          ],
+          "broadcast": "10/3周六深夜",
+          "website": "https://nama-anaru.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-5c343063314b3023",
+          "season": "202610",
+          "title": "女友的朋友",
+          "titleJapanese": "彼女の友達",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/0b356f930cbb3af09eafe46024f7b4ed512995925.jpg",
+          "studio": "Quad",
+          "genres": [
+            "三角",
+            "背德",
+            "涩涩"
+          ],
+          "broadcast": "10/4周日深夜",
+          "website": "https://kanojo-no-tomodachi.deregula.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-5b87da7c6e51f135",
+          "season": "202610",
+          "title": "不擅交际的未亡人雪女与诅咒戒指",
+          "titleJapanese": "人付き合いが苦手な未亡人の雪女さんと呪いの指輪",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/eb45af7a2a2afcac75a5be04d96fdb29512995925.jpg",
+          "studio": "Studio HōKIBOSHI",
+          "genres": [
+            "奇幻",
+            "背德",
+            "涩涩"
+          ],
+          "broadcast": "10/4周日深夜",
+          "website": "https://anime-yukionna.af-original.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-17fc527421af3870",
+          "season": "202610",
+          "title": "黑暗召唤师在地下恋爱中",
+          "titleJapanese": "ダークサモナーとデキている",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/807a20bf62fbfc5048fcec9ee31ff18d512995925.jpg",
+          "studio": "AtoriE",
+          "genres": [
+            "奇幻",
+            "喜剧",
+            "涩涩"
+          ],
+          "broadcast": "10/4周日深夜",
+          "website": "https://darksummoner.deregula.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-e0c1a3f0830fb377",
+          "season": "202610",
+          "title": "某暗部的少女共栖",
+          "titleJapanese": "とある暗部の少女共棲",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/2229261190b2ba37e47c479153242670512995925.jpg",
+          "studio": "J.C.STAFF",
+          "genres": [
+            "外传",
+            "异能战斗"
+          ],
+          "broadcast": "10/9周五晚间",
+          "website": "https://toaru-project.com/item/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-459e930553d914ac",
+          "season": "202610",
+          "title": "魔法少女育成计画restart",
+          "titleJapanese": "魔法少女育成計画restart",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/7483e2b03f01358f3553d8df1c9ebd5a512995925.jpg",
+          "studio": "SynergySP",
+          "genres": [
+            "奇幻",
+            "战斗",
+            "悬疑"
+          ],
+          "broadcast": "10/5周一深夜",
+          "website": "https://mahoiku.com/anime/restart",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-3c1afa7168a3602a",
+          "season": "202610",
+          "title": "药屋少女的呢喃 第3期",
+          "titleJapanese": "薬屋のひとりごと 第3期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/f94ec7be865654e1e96e7a80cdc099aa512995925.jpg",
+          "studio": "OLM",
+          "genres": [
+            "中华风",
+            "宫廷",
+            "药理",
+            "轻推理"
+          ],
+          "broadcast": "10/2周五深夜",
+          "website": "https://kusuriyanohitorigoto.jp/season3/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-63d99d96cba7267e",
+          "season": "202610",
+          "title": "野生的最终BOSS出现了 第2期",
+          "titleJapanese": "野生のラスボスが現れた！第2期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/b472e8b21dfeac6cadc54e7c3dab86a7512995925.jpg",
+          "studio": "WAO World",
+          "genres": [
+            "奇幻",
+            "穿越",
+            "冒险",
+            "战斗",
+            "凤傲天"
+          ],
+          "broadcast": "9/26周六晚间",
+          "website": "https://lastboss-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-51106d3e05c0bf24",
+          "season": "202610",
+          "title": "转生成为魔剑 第2期",
+          "titleJapanese": "転生したら剣でしたⅡ",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/8524867c48e514771162eb44417d14ac512995925.jpg",
+          "studio": "C2C",
+          "genres": [
+            "转生",
+            "奇幻",
+            "冒险",
+            "成长",
+            "养女儿"
+          ],
+          "broadcast": "10/7周三深夜",
+          "website": "https://tenken-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-5fa5b83b899173af",
+          "season": "202610",
+          "title": "冰剑的魔术师将要统一世界 第2期",
+          "titleJapanese": "冰剣の魔術師が世界を統べるⅡ",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/20cdb3995b45484222280751131f076f512995925.jpg",
+          "studio": "ZERO-G",
+          "genres": [
+            "奇幻",
+            "魔法",
+            "校园"
+          ],
+          "broadcast": "10/8周四深夜",
+          "website": "https://hyouken-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-866f486f2142d140",
+          "season": "202610",
+          "title": "转生贵族靠着鉴定技能 一飞冲天 第3期",
+          "titleJapanese": "転生貴族、鑑定スキルで成り上がる 第3期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/fbb1160bd6f8da4af418104d7407af5d512995925.jpg",
+          "studio": "GeyeG Pictures",
+          "genres": [
+            "转生",
+            "奇幻",
+            "伯乐"
+          ],
+          "broadcast": "9/27周日深夜",
+          "website": "https://kanteiskill.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-9782b63a8f94a24e",
+          "season": "202610",
+          "title": "佐佐木与文鸟小哔 第2期",
+          "titleJapanese": "佐々木とピーちゃん Season2",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/1f289b09a580c16272cd62d5eb81d39f512995925.jpg",
+          "studio": "SILVER LINK.",
+          "genres": [
+            "穿越",
+            "魔法",
+            "异能",
+            "后宫",
+            "要素过多"
+          ],
+          "broadcast": "10/7周三晚间",
+          "website": "https://sasapi-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-951167814626c829",
+          "season": "202610",
+          "title": "侦探已死 第2期",
+          "titleJapanese": "探偵はもう、死んでいる。 Season2",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/22bddc205777b528f4514abbfcc40567512995925.jpg",
+          "studio": "ENGI",
+          "genres": [
+            "侦探",
+            "悬疑",
+            "异能"
+          ],
+          "broadcast": "10/7周三晚间",
+          "website": "https://tanmoshi-anime.jp/Season2/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-5ea5c6a63661c1e6",
+          "season": "202610",
+          "title": "弹珠汽水瓶里的千岁同学 Part.2",
+          "titleJapanese": "千歳くんはラムネ瓶のなか 第2クール",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/5f221e221383a119d8107f7d96d3103f512995925.jpg",
+          "studio": "feel.",
+          "genres": [
+            "校园",
+            "恋爱",
+            "党争"
+          ],
+          "broadcast": "10/13周二深夜",
+          "website": "https://chiramune.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-2af28743be12734c",
+          "season": "202610",
+          "title": "冷淡的佐藤同学只对我撒娇",
+          "titleJapanese": "塩対応の佐藤さんが俺にだけ甘い",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/9064b6b530314bfbaf293bcb9a903923512995925.jpg",
+          "studio": "手冢Production",
+          "genres": [
+            "校园",
+            "恋爱喜剧"
+          ],
+          "broadcast": "10/6周二晚间",
+          "website": "https://shioama-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-ab90af370508e40e",
+          "season": "202610",
+          "title": "你好 我是受心上人所托 来做恋爱药的魔女",
+          "titleJapanese": "どうも、好きな人に惚れ薬を依頼された魔女です。",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/f6dcb675508431fef50c58e667e9ec98512995925.jpg",
+          "studio": "diomedéa",
+          "genres": [
+            "奇幻",
+            "恋爱",
+            "甜水"
+          ],
+          "broadcast": "10/5周一晚间",
+          "website": "https://horemajo-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-c47e7cab33b9af50",
+          "season": "202610",
+          "title": "弱气MAX的大小姐居然 接受了铁腕未婚夫的赌约",
+          "titleJapanese": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/8c99616973bd8d4c5a01b480c58a49a6512995925.jpg",
+          "studio": "寿门堂",
+          "genres": [
+            "转生",
+            "恋爱",
+            "甜水"
+          ],
+          "broadcast": "10/4周日深夜",
+          "website": "https://yowaki-max-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-94a1e1adcecd2bd3",
+          "season": "202610",
+          "title": "罗梅莉亚战记",
+          "titleJapanese": "ロメリア戦記",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/3d662c05b18ef1f1fdf33fdcc55f5bc3512995925.jpg",
+          "studio": "Atra",
+          "genres": [
+            "奇幻",
+            "战争",
+            "军事"
+          ],
+          "broadcast": "10/3周六晚间",
+          "website": "https://romelia-senki.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-60f9d337469ca5b9",
+          "season": "202610",
+          "title": "开始成为世界最强的魔女",
+          "titleJapanese": "世界最強の魔女、始めました",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/b91ddef0c8cf599116be225f529b2fad512995925.jpg",
+          "studio": "Bridge/AISLE",
+          "genres": [
+            "奇幻",
+            "冒险",
+            "喜剧",
+            "搞笑",
+            "凤傲天"
+          ],
+          "broadcast": "10/7周三晚间",
+          "website": "https://sekamajo-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-51b3ef35374d3da7",
+          "season": "202610",
+          "title": "乱世千金 倪亚‧利斯顿 转生为娇弱千金的弑神武人华丽无双录",
+          "titleJapanese": "凶乱令嬢ニア・リストン 病弱令嬢に転生した神殺しの武人の華麗なる無双録",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/1617c6ba4c019d5451fa6a1a19ce0d52512995925.jpg",
+          "studio": "KONAMI animation",
+          "genres": [
+            "转生",
+            "奇幻",
+            "武痴",
+            "反差",
+            "凤傲天"
+          ],
+          "broadcast": "10/6周二晚间",
+          "website": "https://kyoranreijo-pr.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-2e8cb55ebee5882a",
+          "season": "202610",
+          "title": "转生了的大圣女 拼死隐瞒自己身为圣女",
+          "titleJapanese": "転生した大聖女は、聖女であることをひた隠す",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/8d097058ac244c5c7f2e590158a99998512995925.jpg",
+          "studio": "Felix Film",
+          "genres": [
+            "转世",
+            "奇幻",
+            "冒险",
+            "喜剧",
+            "凤傲天"
+          ],
+          "broadcast": "10/3周六晚间",
+          "website": "https://daiseijo-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-c2c35d1b80786012",
+          "season": "202610",
+          "title": "和没有信徒的女神大人 一起攻略异世界",
+          "titleJapanese": "信者ゼロの女神サマと始める異世界攻略",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/c78084f93e80738b81c3989752aadf96512995925.jpg",
+          "studio": "HORNETS",
+          "genres": [
+            "穿越",
+            "奇幻",
+            "逆袭"
+          ],
+          "broadcast": "10/11周日深夜",
+          "website": "https://zero-believers-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-6b10c7406aa7ea7e",
+          "season": "202610",
+          "title": "魔法★探险家 转生为成人游戏万年男二又怎样 我要活用游戏知识自由生活",
+          "titleJapanese": "マジカル★エクスプローラー エロゲの友人キャラに転生したけど、 ゲーム知識使って自由に生きる",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/54152063940708a701d3d1d6a039678b512995925.jpg",
+          "studio": "WHITE FOX",
+          "genres": [
+            "转生",
+            "奇幻",
+            "恋爱",
+            "喜剧",
+            "后宫",
+            "福利"
+          ],
+          "broadcast": "10/3周六深夜",
+          "website": "https://majieku.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-097ff8f8656511af",
+          "season": "202610",
+          "title": "一觉醒来坐拥神装和飞船 我决定以买一套独门独户的房子为目标作为佣兵自由地活下去",
+          "titleJapanese": "目覚めたら最強装備と宇宙船持ちだったので、 一戸建て目指して傭兵として自由に生きたい",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/add35a149ccdb8b10a09d8cef2756a68512995925.jpg",
+          "studio": "Studio A-CAT",
+          "genres": [
+            "穿越",
+            "科幻",
+            "佣兵",
+            "太空冒险",
+            "后宫"
+          ],
+          "broadcast": "10/4周日晚间",
+          "website": "https://saikyosoubi.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-b08eb19f7aab58f3",
+          "season": "202610",
+          "title": "被流放的超能附魔师 讴歌随心所欲的第二人生",
+          "titleJapanese": "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/68ce4161fc56cf963655e486cabb13b0512995925.jpg",
+          "studio": "P.A.Works",
+          "genres": [
+            "奇幻",
+            "冒险",
+            "喜剧",
+            "反差",
+            "退队流"
+          ],
+          "broadcast": "10/6周二深夜",
+          "website": "https://sh-anime.shochiku.co.jp/chiifuyo-anime/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-8e7511bdfe111e78",
+          "season": "202610",
+          "title": "恶魔纹章",
+          "titleJapanese": "デモンズ・クレスト",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/0ed80fe7ef7b9c2b22bf50b21e07fdf9512995925.jpg",
+          "studio": "Production I.G",
+          "genres": [
+            "网游",
+            "冒险",
+            "求生"
+          ],
+          "broadcast": "11/6网络放送",
+          "website": "https://demonscrest-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-978076fffe4dae58",
+          "season": "202610",
+          "title": "恐怖收集者",
+          "titleJapanese": "恐怖コレクター",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/57afdf4013eb538829c9e6f648eb8f07512995925.jpg",
+          "studio": "StudioPallet",
+          "genres": [
+            "冒险",
+            "悬疑",
+            "惊悚"
+          ],
+          "broadcast": "10/10周六深夜",
+          "website": "https://www.nhk-character.com/chara/kyoufucollector/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-43139d19490597f6",
+          "season": "202610",
+          "title": "赛博朋克 边缘行者2",
+          "titleJapanese": "Cyberpunk：Edgerunners 2",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/796ee4631e84dfedb905b47dce8b5013512995925.jpg",
+          "studio": "TRIGGER",
+          "genres": [
+            "赛博朋克",
+            "复仇"
+          ],
+          "broadcast": "10/20网络放送",
+          "website": "https://www.cyberpunk.net/ja/edgerunners2",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-e6e0f7c35ed46bdd",
+          "season": "202610",
+          "title": "幻想水浒传",
+          "titleJapanese": "幻想水滸伝",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/97392af3803781888607834ee42c5a54512995925.jpg",
+          "studio": "KONAMI animation",
+          "genres": [
+            "奇幻",
+            "战争",
+            "群像"
+          ],
+          "broadcast": "10/3周六晚间",
+          "website": "https://www.suikoden-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-621b0e7d585abf3b",
+          "season": "202610",
+          "title": "海豹小白",
+          "titleJapanese": "しろたん",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/a20cf94e440376f5a690cf2b60af76c9512995925.jpg",
+          "studio": "Lesprit",
+          "genres": [
+            "奇妙日常",
+            "治愈"
+          ],
+          "broadcast": "10/3周六下午",
+          "website": "https://www.tv-asahi.co.jp/sirotan/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-9231cb33d999d37d",
+          "season": "202610",
+          "title": "小狸猫与小狐狸",
+          "titleJapanese": "タヌキとキツネ",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/db5078a5697ae5b6d8e34de19a37f998512995925.jpg",
+          "studio": "晓MediaStudio",
+          "genres": [
+            "奇妙日常",
+            "治愈"
+          ],
+          "broadcast": "10/4周日早间",
+          "website": "https://www.fwinc.co.jp/tanukitsu/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        },
+        {
+          "id": "202610-5b1cde3198d05099",
+          "season": "202610",
+          "title": "神秘面包小子",
+          "titleJapanese": "パンどろぼう",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/58218744734a3ff6abfaf06dc478fd16512995925.jpg",
+          "studio": "SHIN-EI动画",
+          "genres": [
+            "奇妙日常",
+            "治愈"
+          ],
+          "broadcast": "",
+          "website": "https://pandorobo-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202610/"
+        }
+      ]
+    },
+    {
+      "season": "202607",
+      "sourceUrl": "https://yuc.wiki/202607/",
+      "fetchedAt": "2026-09-23T16:07:53.888Z",
+      "items": [
+        {
+          "id": "202607-0c84f62f3910c561",
+          "season": "202607",
+          "title": "再见 拉拉",
+          "titleJapanese": "さよならララ",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/838239e4d2dabeb51b5241535f5821a7512995925.jpg",
+          "studio": "Kinema Citrus",
+          "genres": [
+            "人鱼",
+            "恋爱",
+            "复古"
+          ],
+          "broadcast": "7/5周日深夜",
+          "website": "https://goodbyelara.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-d7da5a27ac76c53d",
+          "season": "202607",
+          "title": "梅比乌斯之尘",
+          "titleJapanese": "メビウス・ダスト/Mevius Dust",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/67a6f69c0e2fe29493629da4c6dd394c512995925.jpg",
+          "studio": "动画工房",
+          "genres": [
+            "奇科幻",
+            "异能",
+            "动作"
+          ],
+          "broadcast": "7/9周四深夜",
+          "website": "https://mebiusdust.asmik-ace.co.jp/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-54d6947c922bc858",
+          "season": "202607",
+          "title": "GrowUpShow向日葵马戏团",
+          "titleJapanese": "グロウアップショウ ～ひまわりのサーカス団～",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/1ddf686a54bc913313638157bf5ded46512995925.jpg",
+          "studio": "A-1 Pictures Psyde Kick Studio",
+          "genres": [
+            "马戏",
+            "公路",
+            "竞技"
+          ],
+          "broadcast": "7/4周六深夜",
+          "website": "https://growupshow.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-8f8d4ac0f4620d75",
+          "season": "202607",
+          "title": "BanG Dream! YUME∞MITA",
+          "titleJapanese": "バンドリ！ ゆめ∞みた",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/39ee0f846560cdf5f63c9ddfee8d21ac512995925.jpg",
+          "studio": "NICHICALINE",
+          "genres": [
+            "音乐",
+            "乐队",
+            "虚拟"
+          ],
+          "broadcast": "7/2周四深夜",
+          "website": "https://anime.bang-dream.com/yumemita/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-619a7df80600146e",
+          "season": "202607",
+          "title": "魔法少女奈叶 EXCEEDS Gun Blaze Vengeance",
+          "titleJapanese": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/7abf6ddef094ab555b8e9e4b95bdbb7e512995925.jpg",
+          "studio": "Seven Arcs",
+          "genres": [
+            "魔法",
+            "战斗",
+            "群像"
+          ],
+          "broadcast": "7/4周六深夜",
+          "website": "https://www.nanoha.com/EXGV/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-9f9c593de79f2558",
+          "season": "202607",
+          "title": "新 魔神坛斗士 Part.2",
+          "titleJapanese": "鎧真伝サムライトルーパー",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/1fcbbe12b8d8652618de138a0026d767512995925.jpg",
+          "studio": "SUNRISE",
+          "genres": [
+            "战斗",
+            "文艺复兴"
+          ],
+          "broadcast": "7/7周二深夜",
+          "website": "https://www.samurai-trooper.net/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-2e964b9266c2a5fd",
+          "season": "202607",
+          "title": "新 攻壳机动队",
+          "titleJapanese": "攻殻機動隊 THE GHOST IN THE SHELL",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/9c329ec79e3f688d9e240fe296f93cd0512995925.jpg",
+          "studio": "Science SARU",
+          "genres": [
+            "科幻",
+            "赛博朋克 战斗",
+            "文艺复兴"
+          ],
+          "broadcast": "7/7周二深夜",
+          "website": "https://www.theghostintheshell-anime.jp/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-873b8ef9a760a528",
+          "season": "202607",
+          "title": "人造人009 涅墨西斯",
+          "titleJapanese": "サイボーグ009 ネメシス",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/9b28dba13543264543b03fd271eb7d5a512995925.jpg",
+          "studio": "ARecT",
+          "genres": [
+            "异能",
+            "战斗",
+            "群像"
+          ],
+          "broadcast": "7/19网络放送",
+          "website": "https://cyborg009.jp/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-491b24edb57e1d3b",
+          "season": "202607",
+          "title": "死神 千年血战篇 Part.4 祸进谭",
+          "titleJapanese": "BLEACH 千年血戦篇-禍進譚-",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/8448481231bccefba5b1181dc8652d64512995925.jpg",
+          "studio": "PIERROT FILMS",
+          "genres": [
+            "战斗",
+            "神魔",
+            "热血"
+          ],
+          "broadcast": "7/25周六深夜",
+          "website": "https://bleach-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-820ab58a27a4f953",
+          "season": "202607",
+          "title": "碧蓝之海 第3期",
+          "titleJapanese": "ぐらんぶる Season 3",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/db81bd26acafcf3803b416d61f779df1512995925.jpg",
+          "studio": "ZERO-G Saber Works",
+          "genres": [
+            "社团",
+            "潜水",
+            "沙雕 搞笑",
+            "颜艺",
+            "恋爱"
+          ],
+          "broadcast": "7/6周一深夜",
+          "website": "https://grandblue-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-2671f74c9913fdc8",
+          "season": "202607",
+          "title": "刃牙道 Part.2",
+          "titleJapanese": "刃牙道 第2クール",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/ce93161f8aebb57e6437bbfe2c2b9f9f512995925.jpg",
+          "studio": "TMS娱乐",
+          "genres": [
+            "战斗",
+            "格斗 热血",
+            "搞笑"
+          ],
+          "broadcast": "6/18网络放送",
+          "website": "https://baki-anime.jp/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-2f7c1e88b4f863a8",
+          "season": "202607",
+          "title": "Clevatess 第2期 魔兽之王与虚假的勇者传承",
+          "titleJapanese": "クレバテスⅡ-魔獣の王と偽りの勇者伝承-",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/19ab196439099d086e1eb62a803cd1b1512995925.jpg",
+          "studio": "Lay-duce",
+          "genres": [
+            "奇幻",
+            "冒险",
+            "带娃"
+          ],
+          "broadcast": "7/8周三晚间",
+          "website": "https://clevatess.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-aed878dc7734d288",
+          "season": "202607",
+          "title": "擅长逃跑的殿下 第2期",
+          "titleJapanese": "逃げ上手の若君 第二期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/71b9d57fb31b6a53c3565632f461861c512995925.jpg",
+          "studio": "CloverWorks",
+          "genres": [
+            "历史",
+            "复仇",
+            "成长"
+          ],
+          "broadcast": "7/17周五深夜",
+          "website": "https://nigewaka.run/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-d92e80c0a4961a21",
+          "season": "202607",
+          "title": "柔光魔女股份有限公司 第2期",
+          "titleJapanese": "株式会社マジルミエ 第2期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/b6c61ecc8140dd8b41318a46f5585c6d512995925.jpg",
+          "studio": "J.C.STAFF",
+          "genres": [
+            "职场",
+            "魔法",
+            "战斗"
+          ],
+          "broadcast": "7/4周六深夜",
+          "website": "https://magilumiere-pr.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-a3bf3fb4c196eda0",
+          "season": "202607",
+          "title": "花样少年少女 第2期",
+          "titleJapanese": "花ざかりの君たちへ 第2期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/f6fd144e178bc398971b6a24294ef061512995925.jpg",
+          "studio": "SIGNAL.MD",
+          "genres": [
+            "男校",
+            "女扮男装 恋爱",
+            "少女"
+          ],
+          "broadcast": "7/1周三深夜",
+          "website": "https://hanakimi-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-be08380178f362ac",
+          "season": "202607",
+          "title": "相反的你和我 第2期",
+          "titleJapanese": "正反対な君と僕 第2期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/4081442c76b9d08fc7c34da8e2f4d501512995925.jpg",
+          "studio": "LapinTrack",
+          "genres": [
+            "校园",
+            "恋爱喜剧 反差",
+            "欢快"
+          ],
+          "broadcast": "7/5周日下午",
+          "website": "https://sh-anime.shochiku.co.jp/seihantai_anime/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-4e466ec2be39d878",
+          "season": "202607",
+          "title": "超超超超喜欢你的 100个女孩子 第3期",
+          "titleJapanese": "君のことが大大大大大好きな100人の彼女 第3期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/474899f247a75f593180d0759a783635512995925.jpg",
+          "studio": "Bibury动画工作室",
+          "genres": [
+            "恋爱喜剧 逆天",
+            "后宫"
+          ],
+          "broadcast": "7/5周日晚间",
+          "website": "https://hyakkano.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-7ed6ffd6519fbd29",
+          "season": "202607",
+          "title": "碧蓝航线 微速前行 第2期",
+          "titleJapanese": "アズールレーン びそくぜんしんっ！にっ！！",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/6122311dd677dc4941f8cb82f56a6c48512995925.jpg",
+          "studio": "",
+          "genres": [
+            "舰船拟人 日常",
+            "福利",
+            "番外"
+          ],
+          "broadcast": "7/5周日深夜",
+          "website": "https://2nd.azurlane-bisoku.jp/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-084e8675c14515d0",
+          "season": "202607",
+          "title": "文豪野犬 汪 第2期",
+          "titleJapanese": "文豪ストレイドッグス わん！2",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/da557193091701a3d8201ae3a2363ce9512995925.jpg",
+          "studio": "BONES NOMAD",
+          "genres": [
+            "番外",
+            "Q版 日常喜剧"
+          ],
+          "broadcast": "7/2周四晚间",
+          "website": "https://wan2.bungo-stray-dogs-wan.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-2bcb833e14acc605",
+          "season": "202607",
+          "title": "炎之斗球女 弹子",
+          "titleJapanese": "炎の闘球女 ドッジ弾子",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/754bdefab9bc7be8114fc0429988daee512995925.jpg",
+          "studio": "",
+          "genres": [
+            "竞技",
+            "热血",
+            "抽象 异能运动"
+          ],
+          "broadcast": "7/6周一深夜",
+          "website": "https://dodge-danko.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-42cef54dac89cd65",
+          "season": "202607",
+          "title": "雷霆三人行",
+          "titleJapanese": "サンダー3",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/a6d48c024d22dc6ce261ed92b0f39a67512995925.jpg",
+          "studio": "",
+          "genres": [
+            "穿越",
+            "奇科幻 战斗",
+            "多重宇宙 超展开",
+            "欺诈"
+          ],
+          "broadcast": "7/8周三深夜",
+          "website": "https://thunder3-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-41ffc5f4f498d81c",
+          "season": "202607",
+          "title": "穹庐下的魔女",
+          "titleJapanese": "天幕のジャードゥーガル",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/69ee7bf21dd04dfcfcc2b88d035a5b73512995925.jpg",
+          "studio": "Science SARU",
+          "genres": [
+            "战争",
+            "历史",
+            "蒙古 复仇",
+            "成长"
+          ],
+          "broadcast": "7/4周六深夜",
+          "website": "https://anime-jaadugar.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-adb6b62bfe5cbc34",
+          "season": "202607",
+          "title": "天是红河岸",
+          "titleJapanese": "天は赤い河のほとり",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/40b55bdf78f61985869b82bbd08c75f7512995925.jpg",
+          "studio": "龙之子工作室",
+          "genres": [
+            "穿越",
+            "恋爱",
+            "历史 少女漫",
+            "真古"
+          ],
+          "broadcast": "7/7周二深夜",
+          "website": "https://www.vap.co.jp/sorahaakaikawanohotori/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-e58090a47cd10f0a",
+          "season": "202607",
+          "title": "世界舞动",
+          "titleJapanese": "ワールド イズ ダンシング",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/e2cf0e4959454310e6390adaa601408e512995925.jpg",
+          "studio": "Cypic",
+          "genres": [
+            "舞蹈",
+            "能乐",
+            "成长 南北朝"
+          ],
+          "broadcast": "6/29周一晚间",
+          "website": "https://sh-anime.shochiku.co.jp/worldisdancing-anime/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-0d1a23aff6540d6d",
+          "season": "202607",
+          "title": "炒翻天",
+          "titleJapanese": "鉄鍋のジャン！",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/0a7961716aeb38be6352355e05467c07512995925.jpg",
+          "studio": "TROYCA",
+          "genres": [
+            "美食",
+            "厨艺",
+            "中餐 神经",
+            "竞技"
+          ],
+          "broadcast": "7/5周日下午",
+          "website": "https://tetsujan.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-f136c230a1e1aa1b",
+          "season": "202607",
+          "title": "Let's Go 怪奇组",
+          "titleJapanese": "レッツゴー怪奇組",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/86ee784222c121962826aa47e3cfd267512995925.jpg",
+          "studio": "C-Station",
+          "genres": [
+            "灵异",
+            "妖怪",
+            "搞笑"
+          ],
+          "broadcast": "7/5周日下午",
+          "website": "https://kaikigumi.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-9a4bc0c792128c13",
+          "season": "202607",
+          "title": "岩元前辈的推荐",
+          "titleJapanese": "岩元先輩ノ推薦",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/d1e05e6cae2a4ee4443c9b7be0af573d512995925.jpg",
+          "studio": "Studio DEEN",
+          "genres": [
+            "奇幻",
+            "异能",
+            "灵异"
+          ],
+          "broadcast": "7/4周六晚间",
+          "website": "https://iwamoto-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-04af5f6a58ff8bb6",
+          "season": "202607",
+          "title": "令和的斑小姐",
+          "titleJapanese": "令和のタラさん",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/b41e34d9c820c3ddd15e91b48eaab2a7512995925.jpg",
+          "studio": "旭Production",
+          "genres": [
+            "灵异",
+            "妖怪 抽象",
+            "搞笑",
+            "涩涩"
+          ],
+          "broadcast": "7/2周四晚间",
+          "website": "https://darasan-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-0f70f1d108546075",
+          "season": "202607",
+          "title": "正后方的神威",
+          "titleJapanese": "うしろの正面カムイさん",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/609257722f4bf239207a72d33c82408c512995925.jpg",
+          "studio": "ZERO-G Z G-R",
+          "genres": [
+            "灵异",
+            "除灵 抽象",
+            "搞笑",
+            "涩涩"
+          ],
+          "broadcast": "7/3周五深夜",
+          "website": "https://kamuisan.deregula.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-c9f8fc6b0157b19e",
+          "season": "202607",
+          "title": "暗黑灯火",
+          "titleJapanese": "BLACK TORCH",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/67adc38f7025cc8c4b030a27fface3da512995925.jpg",
+          "studio": "100studio",
+          "genres": [
+            "异能",
+            "战斗",
+            "妖怪"
+          ],
+          "broadcast": "7/4周六晚间",
+          "website": "https://blacktorch-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-df244441e282091b",
+          "season": "202607",
+          "title": "花织同学转生后还是想干架",
+          "titleJapanese": "花織さんは転生しても喧嘩がしたい",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/d39282e5a07f528ea4861fcfbf9e81d4512995925.jpg",
+          "studio": "LIDENFILMS",
+          "genres": [
+            "转生",
+            "恋爱喜剧 师生",
+            "魔王勇者"
+          ],
+          "broadcast": "7/11周六深夜",
+          "website": "https://hanaorisan-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-73709c58b456b297",
+          "season": "202607",
+          "title": "少女怪兽焦糖味",
+          "titleJapanese": "乙女怪獣キャラメリゼ",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/611633a85663932cb5c2a9cae13b057e512995925.jpg",
+          "studio": "LIDENFILMS",
+          "genres": [
+            "怪兽",
+            "奇妙日常 少女",
+            "恋爱喜剧"
+          ],
+          "broadcast": "7/2周四深夜",
+          "website": "https://otomekaiju.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-8a4e468482190bd4",
+          "season": "202607",
+          "title": "不虐待我的继母与继姐",
+          "titleJapanese": "いびってこない義母と義姉",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/2be64aa4e4554dfd6e4454f101574e48512995925.jpg",
+          "studio": "NEWON",
+          "genres": [
+            "温馨",
+            "家庭",
+            "日常 反差",
+            "喜剧"
+          ],
+          "broadcast": "7/8周三深夜",
+          "website": "https://ibikona-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-c78cc4b195b9e5e2",
+          "season": "202607",
+          "title": "我家的弟弟们真是让您费心了",
+          "titleJapanese": "うちの弟どもがすみません",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/737c88e9bbea1adb267b6c4f19c153ba512995925.jpg",
+          "studio": "Lay-duce",
+          "genres": [
+            "家庭",
+            "义姐弟 恋爱喜剧",
+            "日常"
+          ],
+          "broadcast": "7/3周五深夜",
+          "website": "https://uchioto-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-08c1c0b3f65f2807",
+          "season": "202607",
+          "title": "躲在超市后门抽烟的两人",
+          "titleJapanese": "スーパーの裏でヤニ吸うふたり",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/02763b6fa9298a0804a71dc67052c457512995925.jpg",
+          "studio": "旭Production",
+          "genres": [
+            "日常",
+            "治愈 职场",
+            "社畜",
+            "情感"
+          ],
+          "broadcast": "6/3先行6话 7/9周四深夜",
+          "website": "https://yanisuu.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-ba5261319595d4bb",
+          "season": "202607",
+          "title": "尼古喵喵",
+          "titleJapanese": "ヤニねこ",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/9043ebde02deb628f2871c88c19b3275512995925.jpg",
+          "studio": "Bibury动画工作室",
+          "genres": [
+            "奇妙日常",
+            "兽人 抽象",
+            "无厘头"
+          ],
+          "broadcast": "7/2周四深夜",
+          "website": "https://yanineko-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-1cabfdcde2580910",
+          "season": "202607",
+          "title": "感谢对战 大小姐才不玩格斗游戏",
+          "titleJapanese": "対ありでした。 〜お嬢さまは格闘ゲームなんてしない〜",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/dcc058e1d03a8f4d35cb6994bb619299512995925.jpg",
+          "studio": "diomedéa",
+          "genres": [
+            "竞技",
+            "贴贴 格斗游戏",
+            "街霸6"
+          ],
+          "broadcast": "7/7周二晚间",
+          "website": "https://taiari-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-20e3f0f0ae1dfc89",
+          "season": "202607",
+          "title": "画完这个再去死",
+          "titleJapanese": "これ描いて死ね",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/6e1b9ec6fb5177e973546f3d5665e810512995925.jpg",
+          "studio": "SHIN-EI动画",
+          "genres": [
+            "漫画创作",
+            "校园 社团",
+            "成长",
+            "日常"
+          ],
+          "broadcast": "7/3周五深夜",
+          "website": "https://www.vap.co.jp/korekaite-shine/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-b18e0d3c6453c91c",
+          "season": "202607",
+          "title": "与你相恋到生命尽头",
+          "titleJapanese": "きみが死ぬまで恋をしたい",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/5e56eb53f26add20de1049642088ae14512995925.jpg",
+          "studio": "ROLL2",
+          "genres": [
+            "魔法",
+            "校园",
+            "战争 百合",
+            "刀",
+            "糖"
+          ],
+          "broadcast": "7/7周二晚间",
+          "website": "https://kimishinu-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-8d3b0b5bf9ce2349",
+          "season": "202607",
+          "title": "声称不爱我的下任公爵为何会溺爱我",
+          "titleJapanese": "「きみを愛する気はない」と言った次期公爵様がなぜか溺愛してきます",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/0e7464dfb9953d64fd2d0133d0e86aa3512995925.jpg",
+          "studio": "ZERO-G GRASS",
+          "genres": [
+            "契约婚姻",
+            "恋爱",
+            "反差",
+            "少女"
+          ],
+          "broadcast": "7/4周六深夜",
+          "website": "https://kimiai-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-4f64a8f93c081061",
+          "season": "202607",
+          "title": "Re:从零开始的异世界生活 第4期 Part.2 夺还篇",
+          "titleJapanese": "Re:ゼロから始める異世界生活 4th season",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/e5498ee6e63f87ba626eb1a643692635512995925.jpg",
+          "studio": "WHITE FOX",
+          "genres": [
+            "穿越",
+            "冒险",
+            "轮回"
+          ],
+          "broadcast": "8/12周三晚间",
+          "website": "https://re-zero-anime.jp/tv/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-25876b56d6e2bf54",
+          "season": "202607",
+          "title": "无职转生 第3期",
+          "titleJapanese": "無職転生 ～異世界行ったら本気だす～ 第3期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/a15be389060cf0bf2a8f07a63cd401f6512995925.jpg",
+          "studio": "Studio Bind",
+          "genres": [
+            "转生",
+            "奇幻",
+            "冒险 情感",
+            "后宫",
+            "传记"
+          ],
+          "broadcast": "首周2话连播 #1~2=7/4晚间 #3~周日深夜",
+          "website": "https://mushokutensei.jp/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-71597bcbe00b3316",
+          "season": "202607",
+          "title": "乙女游戏世界对路人角色 很不友好 第2期",
+          "titleJapanese": "乙女ゲー世界はモブに厳しい世界です2",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/a33eb3e319f9c8508a6fee4aefa3891a512995925.jpg",
+          "studio": "ENGI",
+          "genres": [
+            "转生",
+            "穿越",
+            "校园 恋爱",
+            "奇幻",
+            "机战"
+          ],
+          "broadcast": "7/8周三深夜",
+          "website": "https://mobseka.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-2f8571eadffaa6de",
+          "season": "202607",
+          "title": "幼女战记 第2期",
+          "titleJapanese": "幼女戦記Ⅱ",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/36ca0fd3c8b535ea4f5675d0c4462342512995925.jpg",
+          "studio": "NUT",
+          "genres": [
+            "转生",
+            "穿越",
+            "奇幻 战争",
+            "颜艺"
+          ],
+          "broadcast": "7/8周三晚间",
+          "website": "https://youjo-senki.jp/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-f4cdff0b8fb156ed",
+          "season": "202607",
+          "title": "乡下大叔成为剑圣 第2期",
+          "titleJapanese": "片田舎のおっさん、剣聖になる",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/1940e5804d1d53a81238b8c27c23e9b7512995925.jpg",
+          "studio": "Passione Hayabusa Film",
+          "genres": [
+            "奇幻",
+            "战斗",
+            "误解 师徒",
+            "后宫"
+          ],
+          "broadcast": "7/8周三深夜",
+          "website": "https://ossan-kensei.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-6792a83ff351acdc",
+          "season": "202607",
+          "title": "骸骨骑士大人异世界冒险中 第2期",
+          "titleJapanese": "骸骨騎士様、只今異世界へお出掛け中 第2期",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/2310b9a8587d0f846f7f2b529a00065a512995925.jpg",
+          "studio": "Aura Studio",
+          "genres": [
+            "穿越",
+            "奇幻",
+            "战斗 冒险",
+            "后宫"
+          ],
+          "broadcast": "#1=7/4晚间 #2~周一晚间",
+          "website": "https://skeleton-knight.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-42038211342e0077",
+          "season": "202607",
+          "title": "地狱模式 喜欢速通游戏的玩家在废设定异世界无双 第2期",
+          "titleJapanese": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/91f134e4d0dd02fab86e3ff1c508769a512995925.jpg",
+          "studio": "横滨动画Lab",
+          "genres": [
+            "穿越",
+            "奇幻",
+            "冒险 求生",
+            "成长"
+          ],
+          "broadcast": "7/3周五深夜",
+          "website": "https://hellmode-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-b38ea9611eaf8777",
+          "season": "202607",
+          "title": "落第贤者的学院无双",
+          "titleJapanese": "落第賢者の学院無双 ～二度目の転生、Sランクチート魔術師冒険録～",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/7063238a511a436b56c01bf4762978bc512995925.jpg",
+          "studio": "EMT Squared",
+          "genres": [
+            "转生",
+            "魔法",
+            "校园 后宫",
+            "傲天"
+          ],
+          "broadcast": "6/25周四深夜",
+          "website": "https://rakudai-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-7612142816a7907e",
+          "season": "202607",
+          "title": "世界最强后卫 迷宫国的新人探索者",
+          "titleJapanese": "世界最強の後衛 ～迷宮国の新人探索者～",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/7ffbb763ee08eb87f2695d02e302134f512995925.jpg",
+          "studio": "MAHO FILM",
+          "genres": [
+            "转生",
+            "奇幻",
+            "冒险 战斗",
+            "辅助",
+            "后宫"
+          ],
+          "broadcast": "7/5周日晚间",
+          "website": "https://strongestrearguard-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-a4de55d7dbedb549",
+          "season": "202607",
+          "title": "被追放的转生重骑士 用游戏知识开无双",
+          "titleJapanese": "追放された転生重騎士はゲーム知識で無双する",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/170623b6f4548fe83500d807045be59b512995925.jpg",
+          "studio": "GoHands",
+          "genres": [
+            "转生",
+            "奇幻",
+            "冒险 战斗",
+            "成长"
+          ],
+          "broadcast": "7/2周四深夜",
+          "website": "https://sh-anime.shochiku.co.jp/jukishi-anime/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-7c8ff1591a93a573",
+          "season": "202607",
+          "title": "从0位居民开始的边境领主大人",
+          "titleJapanese": "領民0人スタートの辺境領主様",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/ce8e23f26026dbc2043aecab806f8af6512995925.jpg",
+          "studio": "",
+          "genres": [
+            "奇幻",
+            "冒险 战斗",
+            "开拓"
+          ],
+          "broadcast": "7/3周五晚间",
+          "website": "https://ryomin0-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-d7075de1fa73e1f1",
+          "season": "202607",
+          "title": "LV999的村民",
+          "titleJapanese": "LV999の村人",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/28a51ffa05536c0f7605980cfc3aafbf512995925.jpg",
+          "studio": "Brain's Base",
+          "genres": [
+            "奇幻",
+            "冒险 战斗",
+            "后宫"
+          ],
+          "broadcast": "7/1周三深夜",
+          "website": "https://lv999-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-b541b526abc42925",
+          "season": "202607",
+          "title": "说出你们先走我断后的十年后 我成为了传说",
+          "titleJapanese": "ここは俺に任せて先に行けと言ってから10年がたったら 伝説になっていた。",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/ed7549b6186cc9dbb2706b946c9dbdfe512995925.jpg",
+          "studio": "月虹",
+          "genres": [
+            "奇幻",
+            "冒险 战斗",
+            "后宫"
+          ],
+          "broadcast": "7/3周五晚间",
+          "website": "https://kokoore-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-15618500d452f627",
+          "season": "202607",
+          "title": "最强出涸皇子的暗跃帝位争夺",
+          "titleJapanese": "最強出涸らし皇子の暗躍帝位争い",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/a18b8b3a456f658eb2634d88904e1ffb512995925.jpg",
+          "studio": "MAHO FILM",
+          "genres": [
+            "奇幻",
+            "冒险 战斗",
+            "后宫"
+          ],
+          "broadcast": "7/6周一深夜",
+          "website": "https://degarashiouji.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-446acafa140d999a",
+          "season": "202607",
+          "title": "暴怒千金誓要复仇",
+          "titleJapanese": "ブチ切れ令嬢は報復を誓いました。",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/8e9503bd8008ea81d32421b071433630512995925.jpg",
+          "studio": "Studio COMET",
+          "genres": [
+            "退婚",
+            "奇幻 复仇",
+            "经营"
+          ],
+          "broadcast": "7/6周一晚间",
+          "website": "https://buchigire-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-2e7a3e8082620c7b",
+          "season": "202607",
+          "title": "虽然我是不完美恶女",
+          "titleJapanese": "ふつつかな悪女ではございますが～雛宮蝶鼠とりかえ伝～",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/df5578fc4cc578805e5c356fe0c07c6c512995925.jpg",
+          "studio": "动画工房",
+          "genres": [
+            "灵魂互换",
+            "贴贴 架空中华风"
+          ],
+          "broadcast": "7/12周日深夜",
+          "website": "https://futsutsuka.net/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-16d711437cd9c9c6",
+          "season": "202607",
+          "title": "女主角？圣女？ 不，我是杂役女仆（自豪）！",
+          "titleJapanese": "ヒロイン？聖女？いいえ、オールワークスメイドです（誇）！",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/6d5620daf830b39aa4a8a28e0258640f512995925.jpg",
+          "studio": "EMT Squared",
+          "genres": [
+            "转生",
+            "奇幻 误解系",
+            "凤傲天"
+          ],
+          "broadcast": "6/24周三晚间",
+          "website": "https://all-works-maid-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-aed0125810c90f5f",
+          "season": "202607",
+          "title": "被遗弃圣女的异世界美食之旅",
+          "titleJapanese": "捨てられ聖女の異世界ごはん旅 隠れスキルでキャンピングカーを召喚しました",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/48182894e97ace76cc821e9ddd039aa5512995925.jpg",
+          "studio": "EMT Squared",
+          "genres": [
+            "穿越",
+            "冒险 美食",
+            "旅行"
+          ],
+          "broadcast": "7/6周一深夜",
+          "website": "https://isekai-gohantabi.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-e6c6cfd6a06d7a55",
+          "season": "202607",
+          "title": "无自觉圣女今天也无意识地释放力量",
+          "titleJapanese": "無自覚聖女は今日も無意識に力を垂れ流す",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/f4893bcd78c847adf298bc5dbaa9e539512995925.jpg",
+          "studio": "MagicBUS PicanteCircus",
+          "genres": [
+            "奇幻",
+            "恋爱 反差",
+            "凤傲天"
+          ],
+          "broadcast": "6/30周二晚间",
+          "website": "https://mujikaku-seijo.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-15115dc433f5a5c6",
+          "season": "202607",
+          "title": "鬼的新娘",
+          "titleJapanese": "鬼の花嫁",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/e8b05a97ffaed113f2f68668bcc5184e512995925.jpg",
+          "studio": "",
+          "genres": [
+            "妖怪",
+            "恋爱 和风奇幻"
+          ],
+          "broadcast": "7/4周六深夜",
+          "website": "https://onihana-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-67358d0651d107b7",
+          "season": "202607",
+          "title": "猫与龙",
+          "titleJapanese": "猫と竜",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/867341f8f0cedda8c0bd1d470d506cd6512995925.jpg",
+          "studio": "OLM",
+          "genres": [
+            "奇幻",
+            "温馨",
+            "治愈"
+          ],
+          "broadcast": "6/27周六晚间",
+          "website": "https://nekoryuu-pr.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-267774ae52ed3388",
+          "season": "202607",
+          "title": "底牌很多的维多利亚",
+          "titleJapanese": "手札が多めのビクトリア",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/b8dbcf0c89324fd89cae8ea4ca820e52512995925.jpg",
+          "studio": "Studio DEEN",
+          "genres": [
+            "特工",
+            "冒险",
+            "带娃 情感",
+            "奇妙日常"
+          ],
+          "broadcast": "7/7周二深夜",
+          "website": "https://victoria-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-1b22f98685ead906",
+          "season": "202607",
+          "title": "才女的侍从",
+          "titleJapanese": "才女のお世話 高嶺の花だらけな名門校で、学院一のお嬢様 （生活能力皆無）を陰ながらお世話することになりました",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/0baba8c1870b60a0b76af45561a97b65512995925.jpg",
+          "studio": "Brain's Base",
+          "genres": [
+            "主仆",
+            "反差",
+            "后宫 恋爱喜剧"
+          ],
+          "broadcast": "7/4周六深夜",
+          "website": "https://saijonoosewa-anime.com/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-f211ebb53ab0c4b9",
+          "season": "202607",
+          "title": "转学后班上的清纯可爱美少女 竟是小时候玩在一起的哥们",
+          "titleJapanese": "転校先の清楚可憐な美少女が、 昔男子と思って一緒に遊んだ幼馴染だった件",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/f20b9868e5e84c8e4f0a52612aae4775512995925.jpg",
+          "studio": "project No.9",
+          "genres": [
+            "校园",
+            "青春 恋爱喜剧"
+          ],
+          "broadcast": "7/6周一深夜",
+          "website": "https://tenbin-anime.asmik-ace.co.jp/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-02d81d2849a4b83e",
+          "season": "202607",
+          "title": "与奔跑在透明之夜的你 谈一场看不见的恋爱",
+          "titleJapanese": "透明な夜に駆ける君と、目に見えない恋をした。",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/b8f5f663bc1685da7a86610174b65b2e512995925.jpg",
+          "studio": "Makaria",
+          "genres": [
+            "眼盲",
+            "青春 校园",
+            "恋爱"
+          ],
+          "broadcast": "7/6周一晚间",
+          "website": "https://sh-anime.shochiku.co.jp/kakekoi/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        },
+        {
+          "id": "202607-96768fdae42dd56d",
+          "season": "202607",
+          "title": "二十世纪电气目录",
+          "titleJapanese": "二十世紀電氣目録 -ユーレカ・エヴリカ-",
+          "cover": "https://i0.hdslb.com/bfs/new_dyn/5691179311a0702b8d5fbec57ed5d05d512995925.jpg",
+          "studio": "京都动画",
+          "genres": [
+            "蒸汽朋克",
+            "发明 情感",
+            "几乎原创"
+          ],
+          "broadcast": "7/5周日深夜",
+          "website": "https://denkimokuroku.jp/",
+          "sourceUrl": "https://yuc.wiki/202607/"
+        }
+      ]
+    }
+  ]
+}

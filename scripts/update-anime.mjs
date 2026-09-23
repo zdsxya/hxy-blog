@@ -49,7 +49,9 @@ async function main() {
 	const mode = await getAnimeModeFromConfig();
 	const scriptsDir = path.dirname(fileURLToPath(import.meta.url));
 
-	if (mode === "bilibili") {
+	if (mode === "yuc") {
+		await runScript(path.join(scriptsDir, "update-yuc.mjs"));
+	} else if (mode === "bilibili") {
 		console.log("Detected anime mode: bilibili, running update-bilibili.mjs");
 		await runScript(path.join(scriptsDir, "update-bilibili.mjs"));
 	} else if (mode === "bangumi") {
@@ -65,4 +67,3 @@ main().catch((err) => {
 	console.error(err);
 	process.exit(1);
 });
-

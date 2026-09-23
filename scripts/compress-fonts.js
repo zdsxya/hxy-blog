@@ -691,7 +691,8 @@ async function collectText() {
 	const dataFiles = readFilesRecursively(dataDir);
 
 	dataFiles.forEach((file) => {
-		if (file.endsWith(".ts") || file.endsWith(".js")) {
+		// 季度新番目录和公开追番清单也需要纳入字体子集。
+		if ([".ts", ".js", ".json"].includes(path.extname(file))) {
 			const content = fs.readFileSync(file, "utf-8");
 
 			// 改进的字符串匹配

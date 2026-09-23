@@ -16,6 +16,7 @@ import remarkDirective from "remark-directive";
 import remarkMath from "remark-math";
 import remarkSectionize from "remark-sectionize";
 import { siteConfig } from "./src/config.ts";
+import { animeEditor } from "./scripts/anime-editor-integration.mjs";
 import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-copy-button.js";
 import { pluginLanguageBadge } from "./src/plugins/expressive-code/language-badge.ts";
 import { AdmonitionComponent } from "./src/plugins/rehype-component-admonition.mjs";
@@ -38,6 +39,7 @@ export default defineConfig({
 	output: "static",
 
 	integrations: [
+		animeEditor(),
 		umami({
 			shareUrl: false,
 		}),

@@ -77,6 +77,7 @@ export type SiteConfig = {
 
 	// 顶栏标题配置
 	navbarTitle?: {
+		enable?: boolean; // 是否显示顶栏标题，默认显示
 		mode?: "text-icon" | "logo"; // 显示模式："text-icon" 显示图标+文本，"logo" 仅显示Logo
 		text: string; // 顶栏标题文本
 		icon?: string; // 顶栏标题图标路径
@@ -121,7 +122,7 @@ export type SiteConfig = {
 
 	// 添加番剧页面配置
 	anime?: {
-		mode?: "bangumi" | "local" | "bilibili"; // 番剧页面模式
+		mode?: "yuc" | "bangumi" | "local" | "bilibili"; // 番剧页面模式
 	};
 
 	// 标签样式配置

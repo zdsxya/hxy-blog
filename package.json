@@ -11,6 +11,7 @@
 		"start": "astro dev",
 		"check": "astro check",
 		"update-anime": "node scripts/update-anime.mjs",
+		"update-yuc": "node scripts/update-yuc.mjs",
 		"update-bangumi": "node scripts/update-bangumi.mjs",
 		"update-bilibili": "node scripts/update-bilibili.mjs",
 		"build": "node scripts/update-anime.mjs && astro build && pagefind --site dist && node scripts/compress-fonts.js",
