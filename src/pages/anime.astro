@@ -227,7 +227,7 @@ const hiddenAnimeList = animeList.slice(INITIAL_DISPLAY_COUNT);
 			initialCatalog={yucCatalog}
 			initialWatchlist={animeWatchlist as AnimeWatchlist}
 			currentSeason={seasonForDate()}
-			editable={import.meta.env.DEV}
+			localEditor={import.meta.env.DEV}
 		/>
 	) : (<>
 	<div

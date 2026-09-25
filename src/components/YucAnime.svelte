@@ -10,11 +10,11 @@
 	export let initialCatalog: YucCatalog;
 	export let initialWatchlist: AnimeWatchlist;
 	export let currentSeason: string;
-	export let editable = false;
+	export let localEditor = false;
 
 	let catalog = initialCatalog;
 	let watchlist = initialWatchlist;
-	let view: "catalog" | "watchlist" = editable ? "catalog" : "watchlist";
+	let view: "catalog" | "watchlist" = localEditor ? "catalog" : "watchlist";
 	let season = initialCatalog.seasons.some(
 		(item) => item.season === currentSeason,
 	)
@@ -24,7 +24,15 @@
 	let query = "";
 	let statusFilter = "all";
 	let busy = false;
-	let ready = !editable;
+	let ready = false;
+	let authenticated = false;
+	let configured = false;
+	let showLogin = false;
+	let password = "";
+	let loadVersion = 0;
+	let lifetime: AbortController;
+	$: editable = localEditor || authenticated;
+	$: endpoint = localEditor ? "/__anime/watchlist" : "/api/anime";
 	let message = "";
 	let error = "";
 	const statuses: Record<WatchStatus, string> = {
@@ -56,23 +64,104 @@
 	});
 
 	onMount(() => {
-		if (!editable) return;
-		const controller = new AbortController();
-		fetch("/__anime/watchlist", {
-			cache: "no-store",
-			signal: controller.signal,
-		})
-			.then(async (response) => {
-				if (!response.ok)
-					throw new Error("清单读取失败，请刷新页面重试");
-				watchlist = await response.json();
-				ready = true;
-			})
-			.catch((reason) => {
-				if (reason.name !== "AbortError") error = reason.message;
-			});
-		return () => controller.abort();
+		lifetime = new AbortController();
+		void loadList();
+		const onFocus = () => {
+			if (!busy) void loadList();
+		};
+		window.addEventListener("focus", onFocus);
+		return () => {
+			lifetime.abort();
+			window.removeEventListener("focus", onFocus);
+		};
 	});
+
+	async function readResponse(response: Response) {
+		if (
+			!response.headers.get("content-type")?.includes("application/json")
+		) {
+			throw new Error("追番服务暂时不可用，请确认网站部署已完成后重试");
+		}
+		return response.json();
+	}
+
+	async function loadList() {
+		const version = ++loadVersion;
+		try {
+			const response = await fetch(endpoint, {
+				cache: "no-store",
+				credentials: "same-origin",
+				signal: lifetime?.signal,
+			});
+			const data = await readResponse(response);
+			if (!response.ok)
+				throw new Error(data.error || "清单读取失败，请稍后重试");
+			if (version !== loadVersion || lifetime?.signal.aborted) return;
+			watchlist = localEditor ? data : data.watchlist;
+			if (!localEditor) {
+				authenticated = data.authenticated;
+				configured = data.configured;
+			}
+			ready = true;
+			error = "";
+		} catch (reason) {
+			if (version !== loadVersion || lifetime?.signal.aborted) return;
+			ready = false;
+			error = reason instanceof Error ? reason.message : "清单读取失败";
+		}
+	}
+
+	async function login() {
+		if (busy || !password || !configured) return;
+		busy = true;
+		++loadVersion;
+		error = "";
+		message = "";
+		try {
+			const response = await fetch("/api/anime?action=login", {
+				method: "POST",
+				credentials: "same-origin",
+				headers: { "Content-Type": "application/json" },
+				body: JSON.stringify({ password }),
+			});
+			const data = await readResponse(response);
+			if (!response.ok) throw new Error(data.error || "登录失败");
+			watchlist = data.watchlist;
+			authenticated = true;
+			ready = true;
+			showLogin = false;
+			message = "已登录，添加和修改会自动保存并公开。";
+		} catch (reason) {
+			error = reason instanceof Error ? reason.message : "登录失败";
+		} finally {
+			password = "";
+			busy = false;
+		}
+	}
+
+	async function logout() {
+		if (busy) return;
+		busy = true;
+		++loadVersion;
+		error = "";
+		try {
+			const response = await fetch("/api/anime?action=logout", {
+				method: "POST",
+				credentials: "same-origin",
+				headers: { "Content-Type": "application/json" },
+				body: "{}",
+			});
+			const data = await readResponse(response);
+			if (!response.ok) throw new Error(data.error || "退出失败，请重试");
+			authenticated = false;
+			message = "已退出编辑模式。";
+		} catch (reason) {
+			error =
+				reason instanceof Error ? reason.message : "退出失败，请重试";
+		} finally {
+			busy = false;
+		}
+	}
 
 	async function save(
 		items: { id: string; status: WatchStatus }[],
@@ -82,14 +171,26 @@
 		busy = true;
 		error = "";
 		message = "保存中…";
+		++loadVersion;
 		try {
-			const response = await fetch("/__anime/watchlist", {
+			const response = await fetch(endpoint, {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 				body: JSON.stringify({ revision: watchlist.updatedAt, items }),
+				credentials: "same-origin",
 			});
-			const data = await response.json();
-			if (!response.ok) throw new Error(data.error || "保存失败，请重试");
+			const data = await readResponse(response);
+			if (response.status === 401 && !localEditor) {
+				authenticated = false;
+				showLogin = true;
+			}
+			if (response.status === 409) await loadList();
+			if (!response.ok)
+				throw new Error(
+					response.status === 409
+						? "清单有更新，已尝试重新读取，请确认后再操作。"
+						: data.error || "保存失败，请重试",
+				);
 			watchlist = data;
 			message = success;
 		} catch (reason) {
@@ -108,7 +209,7 @@
 				...watchlist.items.map(({ id, status }) => ({ id, status })),
 				{ id: item.id, status: "watching" },
 			],
-			`已添加《${item.title}》，部署后公开`,
+			`已添加《${item.title}》${localEditor ? "，部署后公开" : "，已在线保存"}`,
 		);
 	}
 	function remove(item: YucAnime) {
@@ -125,11 +226,11 @@
 				id: item.id,
 				status: item.id === id ? status : item.status,
 			})),
-			"追番状态已保存，部署后公开",
+			localEditor ? "追番状态已保存，部署后公开" : "追番状态已在线保存",
 		);
 	}
 	async function sync() {
-		if (busy || !editable) return;
+		if (busy || !localEditor) return;
 		busy = true;
 		error = "";
 		message = "正在同步当季与下一季新番…";
@@ -163,11 +264,77 @@
 	</header>
 	{#if editable}
 		<div class="editor-note">
-			<span>编辑模式 · 点击添加后自动保存，部署后所有访客可见。</span>
-			<button class="soft-button" onclick={sync} disabled={busy || !ready}
-				>{busy ? "处理中…" : "同步新番"}</button
+			<span
+				>{localEditor
+					? "本地编辑 · 自动保存到文件，部署后公开。"
+					: "站长编辑 · 修改自动保存，所有访客可见。"}</span
+			>
+			{#if localEditor}
+				<button
+					class="soft-button"
+					onclick={sync}
+					disabled={busy || !ready}
+					>{busy ? "处理中…" : "同步新番"}</button
+				>
+			{:else}
+				<button class="soft-button" onclick={logout} disabled={busy}
+					>退出登录</button
+				>
+			{/if}
+		</div>
+	{:else}
+		<div class="admin-entry">
+			<span>站长的公开追番清单</span>
+			<button
+				class="soft-button"
+				aria-expanded={showLogin}
+				onclick={() => {
+					showLogin = !showLogin;
+					password = "";
+				}}
+				disabled={busy}>站长登录</button
 			>
 		</div>
+	{/if}
+	{#if showLogin && !editable}
+		{#if ready && configured}
+			<form
+				class="login-form"
+				onsubmit={(event) => {
+					event.preventDefault();
+					void login();
+				}}
+			>
+				<label for="anime-admin-password">管理密码</label>
+				<div class="login-fields">
+					<input
+						id="anime-admin-password"
+						name="password"
+						type="password"
+						autocomplete="current-password"
+						bind:value={password}
+						required
+						maxlength="1024"
+						disabled={busy}
+					/>
+					<button
+						class="soft-button"
+						type="submit"
+						disabled={busy || !password}
+						>{busy ? "登录中…" : "登录"}</button
+					>
+				</div>
+			</form>
+		{:else if ready}
+			<p class="feedback">
+				在线编辑尚未配置。请站长在 Vercel 连接 Redis，并设置至少 16 位的
+				ANIME_ADMIN_PASSWORD 后重新部署。
+			</p>
+		{:else}
+			<p class="feedback">
+				正在确认在线服务状态，请稍候；读取失败时可点击下方重试。
+			</p>
+		{/if}
 	{/if}
 	<div class="tabs" aria-label="番单范围">
 		<button
@@ -236,13 +403,25 @@
 			>
 		{/if}
 	</div>
-	{#if editable}<p
+	{#if editable || error || message || !ready}<p
 			class="feedback"
 			class:error
 			role="status"
 			aria-live="polite"
 		>
-			{error || message || "选择新番，建立你的公开追番清单。"}
+			{error ||
+				message ||
+				(!ready
+					? "正在读取追番清单…"
+					: "选择新番，建立你的公开追番清单。")}
+			{#if error}<button
+					class="soft-button"
+					onclick={() => {
+						message = "";
+						void loadList();
+					}}
+					disabled={busy}>重新读取</button
+				>{/if}
 		</p>{/if}
 	{#if results.length}
 		<div class="anime-catalog">
@@ -398,6 +577,35 @@
 		border-radius: 0.8rem;
 		font-size: 0.85rem;
 		margin-bottom: 1.4rem;
+	}
+	.admin-entry {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		margin-bottom: 1rem;
+		color: var(--text-60);
+		font-size: 0.85rem;
+	}
+	.login-form {
+		padding: 1rem;
+		margin-bottom: 1.4rem;
+		border-radius: 0.8rem;
+		background: var(--btn-regular-bg);
+	}
+	.login-fields {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.7rem;
+		margin-top: 0.5rem;
+	}
+	.login-fields input {
+		flex: 1;
+		min-width: 0;
+		padding: 0.6rem 0.8rem;
+		border-radius: 0.5rem;
+		background: var(--card-bg);
+		color: var(--text-90);
 	}
 	button,
 	select,
